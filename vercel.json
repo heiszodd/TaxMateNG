@@ -1,0 +1,12 @@
+{
+  "builds": [
+    {
+      "src": "pubspec.yaml",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build/web",
+        "buildCommand": "bash build-flutter.sh"
+      }
+    }
+  ]
+}
